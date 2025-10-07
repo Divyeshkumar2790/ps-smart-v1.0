@@ -21,14 +21,22 @@ It provides both a scripted backend and a graphical interface for landslide-haza
 
 ---
 
-## 🧩 Repository Structure
-ps-smart/
-├── app.py # Streamlit web interface
-├── unstable_slope_hazard_pipeline.py # Core processing pipeline
-├── docs/
-│ └── ps_smart_workflow.png # Workflow schematic
-├── examples/ # (optional) example/synthetic datasets
-├── requirements.txt # Python dependencies
-├── LICENSE # A license
-├── CITATION.cff # Citation metadata
-└── README.md # This file
+## ⚙️ Installation
+```bash
+# 1. Clone the repository
+git clone https://github.com/<yourusername>/ps-smart.git
+cd ps-smart
+
+# 2. Create environment and install dependencies
+pip install -r requirements.txt
+# or
+conda env create -f environment.yml
+conda activate ps-smart
+
+## Usage
+Command-line
+python unstable_slope_hazard_pipeline.py --help
+
+Streamlit Application
+streamlit run app.py
+
