@@ -1,10 +1,7 @@
 # PS-SMaRT v1.0  
 **Persistent Scatterer–Soil Moisture Analysis for Risk & Triggering**
 
-PS-SMaRT v1.0 is an open-source Python model for the **automatic detection and clustering of unstable slopes** by fusing  
-Persistent Scatterer Interferometric SAR (PS-InSAR) time-series deformation with **soil-moisture anomalies and terrain indices**.  
-It provides both a scripted backend and a graphical interface for landslide-hazard assessment, developed for publication in  
-[*Geoscientific Model Development* (GMD)](https://www.geoscientific-model-development.net/).
+PS-SMaRT v1.0 is an open-source Python model for the **automatic detection and clustering of unstable slopes** by fusing Persistent Scatterer Interferometric SAR (PS-InSAR) time-series deformation with **soil-moisture anomalies and terrain indices**. It provides both a scripted backend and a graphical interface for landslide-hazard assessment, developed for publication in [*Geoscientific Model Development* (GMD)](https://www.geoscientific-model-development.net/).
 
 ---
 
