@@ -2,6 +2,7 @@ numpy
 pandas
 geopandas
 rasterio
+shapely
 scikit-learn
 matplotlib
 streamlit
